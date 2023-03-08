@@ -1,0 +1,31 @@
+
+Frameworks is a collection of tool to help to handle
+TestNG will help to organize your test; @Test annotation helps you run our test
+Maven organize out dependencies;
+Selenium UI automation tool
+TDD and BDD (behavior framework)
+
+
+there is no established test frameworks: everyone can create their own frameworks; they don't have one set tool
+
+Extend Report tool
+
+TestNG where NG stands for "next generation" is a test automation tool inspired by JUnit (in Java) and NUnit (in C#)
+
+It can be used for unit, integration, system and end-to-end testing - different level of testing;
+QA can participate in the three levels of testing: integration, system and acceptance testing;
+There are other types of testing such as performance, securiy, usability testing and etc.
+
+TestNG can be used in unit, system and E2E testing;
+it has extra ways to configure and write test methods;
+the main feature of TestNG is Java annotation: like @Test
+
+ADVANTAGES of TestNG over JUNit;
+- extra before and after annotations such as Before/After Suite and Before/After Group
+- dependency tests
+- grouping of tests methods
+- multithreading executions
+- in-built reporting
+
+TestNG does not require to have main method
+all the TestNG methods are non-static

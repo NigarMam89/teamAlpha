@@ -1,0 +1,18 @@
+
+
+How to collaborate on a project using GitHub workflow (branch-based workflow);
+
+1. Team lead creates a project, adds a gitignore file, starts a new git project (VSC-> Enable version control - Git)
+and creates a commit and pushes it to a remote repository and gives a push access to other team members (add them as a
+collaborators)
+
+
+2. other team members clone the repository
+3. everyone needs to create a new branch to avoid working in the main branch
+4. add new changes in your own branch, commit the change, and push the branch to remote
+5. create a pull request for the branch code to be reviewed by others
+6. Once the code is reviews, the reviewer closes the pull requesr and merges the branch and deletes the branch
+7. The owner of the branch should pull the changes from remote's main local main
+8. the owner of the branch should also delete it locally
+
+// remember: To avoid merge conflicts, pull the changes fro the remote before working on
